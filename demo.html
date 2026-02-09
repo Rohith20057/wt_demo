@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <style>
+        body {
+            background-color: #fde6df;
+            font-family: serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            width: 700px;
+            margin: auto;
+        }
+
+        label {
+            display: inline-block;
+            width: 150px;
+            margin-bottom: 15px;
+        }
+
+        input, select, textarea {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Student Registration Form</h1>
+
+<form>
+
+    <label>Roll no :</label>
+    <input type="text" placeholder="Roll No"><br>
+
+    <label>Student name :</label>
+    <input type="text" placeholder="First Name">
+    -
+    <input type="text" placeholder="Last Name"><br>
+
+    <label>Father's name :</label>
+    <input type="text"><br>
+
+    <label>Date of birth :</label>
+    <input type="text" placeholder="Day" size="4">
+    -
+    <input type="text" placeholder="Month" size="4">
+    -
+    <input type="text" placeholder="Year" size="6">
+    (DD-MM-YYYY)<br>
+
+    <label>Mobile no :</label>
+    <input type="text" value="+91" size="3">
+    -
+    <input type="text"><br>
+
+    <label>Email id :</label>
+    <input type="email"><br>
+
+    <label>Password :</label>
+    <input type="password"><br>
+
+    <label>Gender :</label>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female<br>
+
+    <label>Department :</label>
+    <input type="checkbox"> CSE
+    <input type="checkbox"> IT
+    <input type="checkbox"> ECE
+    <input type="checkbox"> Civil
+    <input type="checkbox"> Mech<br>
+
+    <label>Course :</label>
+    <select>
+        <option>---------------- Select Current Course's ----------------</option>
+        <option>B.Tech</option>
+        <option>M.Tech</option>
+        <option>MCA</option>
+        <option>BCA</option>
+    </select><br>
+
+    <label>Student photo :</label>
+    <input type="file"><br>
+
+    <label>City :</label>
+    <input type="text"><br>
+
+    <label>Address :</label>
+    <textarea rows="4" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
